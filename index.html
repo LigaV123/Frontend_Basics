@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+    <link rel="icon" type="image/x-icon" href="https://cdn-icons-png.flaticon.com/512/4345/4345551.png">
+    <link rel="stylesheet" href="./styles.css">
+</head>
+<body>
+    <main class="mainPart">
+        
+        <form class="form">
+            <h1 class="headline">Registration Form</h1>
+
+            <div class="typingBox">
+                <label for="firstName">First Name</label>
+                <br>
+                <input type="text"
+                    id="firstName" 
+                    placeholder="Name" 
+                    name="firstName" 
+                    required
+                    class="typingInput"
+                >
+            </div>
+            
+            <div class="typingBox">
+                <label for="lastName" class="margin">Last Name</label>
+                <br>
+                <input type="text" 
+                    id="lastName" 
+                    placeholder="Last name" 
+                    name="lastName" 
+                    required
+                    class="typingInput"
+                >
+            </div>           
+            
+            <div class="typingBox">
+                <label for="email" class="margin">E-mail</label>
+                <br>
+                <input type="email" 
+                    id="email" 
+                    placeholder="Name@gmail.com" 
+                    name="email" 
+                    required
+                    class="typingInput"
+                >
+            </div>
+                        
+            <div class="typingBox">
+              <label for="password" class="margin">Password</label>
+                <br>
+                <input type="password" 
+                    id="password" 
+                    placeholder="ji456#_(hd)0*fh4" 
+                    name="password" 
+                    required
+                    class="typingInput"
+                >    
+            </div>
+
+            <div class="gender">
+                <p class="margin">Gender</p>
+                <div>
+                    <input type="radio" id="male" name="gender" required> <label for="male">Male</label>
+                </div>
+                <div>
+                    <input type="radio" id="female" name="gender" required> <label for="female">Female</label>
+                </div>                
+            </div>
+
+            <div class="country margin">
+                <label for="country">Where do you live</label>
+                <select name="country" id="country" required class="dropdown">
+                    <option value="" disabled selected>Country</option>
+                    <option value="lv">Latvia</option>
+                    <option value="ee">Estonia</option>
+                    <option value="lt">Lithuania</option>
+                </select>
+            </div>
+
+            <div class="terms margin">
+                <input type="checkbox" id="terms" required> <label for="terms">I have agreed to 
+                    <a href="" target="_blank" class="termsText">Terms and Conditions</a></label>
+            </div>
+
+            <button type="submit" class="submit margin">Submit</button>
+        </form>
+    </main>
+</body>
+</html>

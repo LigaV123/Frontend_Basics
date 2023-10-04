@@ -1,0 +1,126 @@
+body {
+    background-image: url(https://cdn.pixabay.com/photo/2016/06/02/02/33/triangles-1430105_640.png);
+    font-family:'Courier New', Courier, monospace;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.mainPart {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.headline {
+    font-size: 50px;
+    text-align: center;
+    margin-top: 0;
+}
+
+.form {
+    font-size: 20px;
+    width: 600px;
+    background-color: #7fffd4b9;
+    border-radius: 5%;
+    padding: 33px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.typingBox {
+    width: 250px;
+    height: 90px;
+    margin: 0 auto;
+}
+
+.gender {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 550px;
+}
+
+.country {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 550px;
+}
+
+.dropdown {
+    font-size: 15px;
+    width: 100%;
+    background-color: rgba(198, 151, 242, 0.521);
+    border: 1px solid rgba(177, 103, 245, 0.665);
+    border-radius: 10px;
+}
+
+.termsText {
+    text-decoration: underline;
+    color: black;
+}
+
+.submit {
+    width: 150px;
+    height: 35px;
+    font-size: 17px;
+    border: 1px solid black;
+    border-radius: 10px;
+    margin: auto;
+    background-color: rgba(177, 103, 245, 0.665);
+    border: 1px solid rgba(177, 103, 245, 0.665);
+}
+
+.margin {
+    margin-top: 35px;
+    margin-bottom: 15px;
+}
+
+.typingInput {
+    padding-left: 5px;
+    font-size: 17px;
+    background-color: rgba(198, 151, 242, 0.521);
+    border: 1px solid rgba(177, 103, 245, 0.665);
+    border-radius: 10px;
+    width: 100%;
+}
+
+.submit:hover {
+    background-color: rgba(198, 151, 242, 0.521);
+}
+
+.termsText:hover {
+    color: rgb(91, 31, 147);
+}
+
+@media only screen and (max-width: 600px){
+    .headline {
+        font-size: 35px;
+        text-align: left;
+        width: 260px;
+        overflow-wrap: break-word;
+    }
+    
+    .form {
+        flex-direction: column;
+    }
+
+    .gender {
+        align-items: center;
+        width: 250px;
+    }
+
+    .country {
+        width: 250px;
+    }
+
+    .terms {
+        width: 250px;
+        overflow-wrap: break-word;
+    }
+}
+
