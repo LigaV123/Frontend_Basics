@@ -1,0 +1,16 @@
+.box-wrapper {
+  padding: 16px;
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  flex-wrap: wrap;
+}
+
+.heading {
+  font-size: 40px;
+  margin: 0;
+  text-align: center;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  font-weight: 500;
+}
