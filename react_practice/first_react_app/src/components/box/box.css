@@ -6,6 +6,8 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    flex-direction: column;
+    gap: 50px;
     color: white;
     font-size: 100px;
     position: relative;
@@ -21,4 +23,24 @@
     position: absolute;
     right: 15px;
     top: 15px;
+  }
+
+  .box__button {
+    padding: 10px 15px;
+    border: none;
+    background-color: white;
+    font-size: 20px;
+    transition: opacity 0.3s;
+    color: black;
+    cursor: pointer;
+    border-radius: 10px;
+  }
+
+  .box__button:hover {
+    opacity: 0.6;
+  }
+
+  .box__button.day {
+    background-color: black;
+    color: white;
   }
