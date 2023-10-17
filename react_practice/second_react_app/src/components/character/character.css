@@ -1,0 +1,39 @@
+.character {
+    background-color: rgba(0, 0, 0, 0.3);
+    border-radius: 10px;
+    padding: 5px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.character__image {
+    width: 100%;
+    border-radius: 10px;
+}
+
+.character__name {
+    font-size: 25px;
+    margin: 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.character__status {
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+}
+
+.character__status.alive {
+    background-color: rgb(131, 208, 15);
+}
+
+.character__status.dead {
+    background-color: rgb(192, 6, 6);
+}
+
+.character__status.unknown {
+    background-color: rgb(26, 26, 194);
+}
