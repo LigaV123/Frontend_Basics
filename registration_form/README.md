@@ -1,6 +1,4 @@
 # Registration form
-## End result
-https://raw.githack.com/LigaV123/Frontend_Basics/main/registration_form/index.html
 
 ## Task
 ### Make registration form from given template
@@ -11,5 +9,7 @@ https://raw.githack.com/LigaV123/Frontend_Basics/main/registration_form/index.ht
 * When clicking on label text, the label field gets selected and ready to use
 * By pressing Enter you are able to submit the form
 * Visual style is all up to you
+
+## End result can be vieved [here](https://raw.githack.com/LigaV123/Frontend_Basics/main/registration_form/index.html)
 
 ![homework](https://github.com/LigaV123/Frontend_Basics/assets/138287614/f5c0cfcf-c61d-43f5-baa4-5609f4f4d8b3)
