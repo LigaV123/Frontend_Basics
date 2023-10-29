@@ -1,5 +1,7 @@
 # Registration form
 
+## [Result can be viewed clicking here](https://raw.githack.com/LigaV123/Frontend_Basics/main/registration_form/index.html)
+
 ## Task
 ### Make registration form from given template
 
@@ -10,7 +12,5 @@
 * By pressing Enter you are able to submit the form
 * Visual style is all up to you
 
-## [Result can be viewed clicking here](https://raw.githack.com/LigaV123/Frontend_Basics/main/registration_form/index.html)
-
-## Task templates visual representation
+### Task templates visual representation
 ![homework](https://github.com/LigaV123/Frontend_Basics/assets/138287614/f5c0cfcf-c61d-43f5-baa4-5609f4f4d8b3)
