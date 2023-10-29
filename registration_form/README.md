@@ -1,6 +1,9 @@
-# Task
+# Registration form
+## End result
+https://raw.githack.com/LigaV123/Frontend_Basics/main/registration_form/index.html
 
-## Make registration form from given template
+## Task
+### Make registration form from given template
 
 * All fields must be with attribute = required
 * Style all the elements, so they are not with default style
